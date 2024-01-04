@@ -1,0 +1,14 @@
+.wp-block-site-title {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.wp-block-navigation {
+  width: calc(100% - 240px);
+  display: inline-block;
+  vertical-align: middle;
+}
+.wp-block-template-part {
+  background-color: #ee9999;
+}
+
