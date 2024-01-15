@@ -1,6 +1,10 @@
 /*!********************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/less-loader/dist/cjs.js!./assets/css/front.less ***!
   \********************************************************************************************************************************************/
+.home main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 body > .wp-site-blocks > header .wp-block-site-logo {
   position: absolute;
   z-index: 1000;
@@ -34,6 +38,12 @@ body.page-template-full-wide-page .hero-image-main .main-page-title {
 }
 body.page-template-full-wide-page .hero-image-main .main-page-title h1 {
   color: black;
+}
+body.page-template-full-wide-page .wp-block-columns {
+  max-width: 100%;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  gap: 5rem;
 }
 
 
