@@ -22,6 +22,7 @@ body > .wp-site-blocks > footer * {
 }
 body.page-template-full-wide-page .hero-image-main {
   position: relative;
+  margin-top: 0px;
 }
 body.page-template-full-wide-page .hero-image-main .main-page-title {
   position: absolute;
@@ -39,8 +40,39 @@ body.page-template-full-wide-page .hero-image-main .main-page-title {
 body.page-template-full-wide-page .hero-image-main .main-page-title h1 {
   color: black;
 }
+@media (max-width: 900px) {
+  body.page-template-full-wide-page .hero-image-main .main-page-title img {
+    height: 100px;
+    width: auto;
+  }
+  body.page-template-full-wide-page .hero-image-main .main-page-title h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 710px) {
+  body.page-template-full-wide-page .hero-image-main .main-page-title {
+    text-align: left;
+    width: 311px;
+  }
+  body.page-template-full-wide-page .hero-image-main .main-page-title .wp-block-site-logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+  }
+  body.page-template-full-wide-page .hero-image-main .main-page-title h1 {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 28px;
+    width: calc(100% - 105px);
+  }
+}
+body.page-template-full-wide-page .wp-block-post-content {
+  max-width: 1211px;
+  margin: auto;
+}
 body.page-template-full-wide-page .wp-block-columns {
   max-width: 100%;
+  width: 100%;
   margin-left: 0px !important;
   margin-right: 0px !important;
   gap: 5rem;

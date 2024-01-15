@@ -1,6 +1,7 @@
 body.page-template-full-wide-page {
 	.hero-image-main {
 		position: relative;
+		margin-top: 0px;
 
 		.main-page-title {
 			position: absolute;
@@ -17,11 +18,40 @@ body.page-template-full-wide-page {
 			h1 {
 				color: black;
 			}
+
+			@media (max-width: 900px ){
+				img {
+					height: 100px;
+					width: auto;
+				}
+				h1 {
+					font-size: 28px;
+				}
+			}
+			@media (max-width: 710px ){
+				text-align: left;
+				width: 311px;
+				.wp-block-site-logo {
+					display: inline-block;
+					vertical-align: top;
+					width: 100px;
+				}
+				h1 {
+					display: inline-block;
+					vertical-align: top;
+					font-size: 28px;
+					width: calc( 100% - 105px );
+				}
+			}
 		}
 	}	
-
+	.wp-block-post-content {
+		max-width: 1211px;
+		margin: auto;
+	}
 	.wp-block-columns {
 		max-width: 100%;
+		width: 100%;
 		margin-left: 0px !important;
 		margin-right: 0px !important;
 		gap: 5rem;
