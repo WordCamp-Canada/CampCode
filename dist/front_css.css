@@ -20,6 +20,9 @@ body > .wp-site-blocks > footer {
 body > .wp-site-blocks > footer * {
   color: inherit;
 }
+body.page-template-full-wide-page .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  max-width: none;
+}
 body.page-template-full-wide-page .hero-image-main {
   position: relative;
   margin-top: 0px;

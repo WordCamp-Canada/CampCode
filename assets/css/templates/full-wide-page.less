@@ -1,4 +1,8 @@
 body.page-template-full-wide-page {
+	.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+		max-width: none;
+	}
+
 	.hero-image-main {
 		position: relative;
 		margin-top: 0px;
