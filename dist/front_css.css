@@ -13,6 +13,22 @@ body > .wp-site-blocks > header .wp-block-site-logo {
 body > .wp-site-blocks > header .wp-block-site-title {
   margin-left: 70px;
 }
+body.admin-bar > .wp-site-blocks > header {
+  margin-top: 32px;
+}
+body.admin-bar > .wp-site-blocks > header nav {
+  margin-left: 72px;
+}
+@media (max-width: 600px) {
+  body.admin-bar > .wp-site-blocks > header nav {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 782px) {
+  body.admin-bar > .wp-site-blocks > header {
+    margin-top: 46px;
+  }
+}
 body > .wp-site-blocks > footer {
   background-image: linear-gradient(to right, #473931, #452e21);
   color: white;

@@ -1,10 +1,29 @@
-body>.wp-site-blocks>header {
-	.wp-block-site-logo {
-		position: absolute;
-    	z-index: 1000;
-    	top: 33px;
+body {
+	>.wp-site-blocks>header {
+		.wp-block-site-logo {
+			position: absolute;
+	    	z-index: 1000;
+	    	top: 33px;
+		}
+		.wp-block-site-title {
+			margin-left: 70px;
+		}
 	}
-	.wp-block-site-title {
-		margin-left: 70px;
+
+	&.admin-bar {
+		>.wp-site-blocks>header {
+			margin-top: 32px;
+
+			nav {
+				margin-left: 72px;
+				@media (max-width: 600px ){
+					margin-left: 0px
+				}
+			}
+
+			@media (max-width: 782px ){
+				margin-top: 46px
+			}
+		}
 	}
 }
