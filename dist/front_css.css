@@ -20,6 +20,10 @@ body > .wp-site-blocks > footer {
 body > .wp-site-blocks > footer * {
   color: inherit;
 }
+.contact-form select {
+  min-width: 300px;
+  font-size: 20px;
+}
 body.page-template-wp-custom-template-full-wide-no-hero .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
 body.page-template-full-wide-page .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   max-width: none;
