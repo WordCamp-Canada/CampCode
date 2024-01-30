@@ -91,6 +91,11 @@ body.page-template-full-wide-page .wp-block-columns {
   margin-right: 0px !important;
   gap: 5rem;
 }
+body.page-template-wp-custom-template-full-wide-no-hero .main-page-title {
+  position: static;
+  transform: none;
+  border-radius: 0px;
+}
 
 
 /*# sourceMappingURL=front_css.css.map*/
