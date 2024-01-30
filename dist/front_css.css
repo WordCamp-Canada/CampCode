@@ -52,6 +52,17 @@ body > .wp-site-blocks > footer * {
 .tix-js {
   max-width: none !important;
 }
+.tix-js table {
+  width: 100%;
+  border: 1px solid #dedede;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+}
+.tix-js table td,
+.tix-js table th {
+  padding: 5px;
+}
 body.page-template-wp-custom-template-full-wide-no-hero .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
 body.page-template-full-wide-page .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   max-width: none;
