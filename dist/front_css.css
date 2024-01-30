@@ -36,9 +36,16 @@ body > .wp-site-blocks > footer {
 body > .wp-site-blocks > footer * {
   color: inherit;
 }
+.tix-js select,
 .contact-form select {
   min-width: 300px;
   font-size: 20px;
+}
+.tix-js input[type="submit"],
+.contact-form input[type="submit"] {
+  padding: 10px;
+  border-radius: 11px;
+  font-size: 16px;
 }
 body.page-template-wp-custom-template-full-wide-no-hero .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
 body.page-template-full-wide-page .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
