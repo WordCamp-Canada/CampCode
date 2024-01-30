@@ -50,7 +50,8 @@ body > .wp-site-blocks > footer * {
   min-width: 300px;
 }
 .tix-js {
-  max-width: none !important;
+  max-width: 980px !important;
+  margin: auto;
 }
 .tix-js table {
   width: 100%;
@@ -58,8 +59,6 @@ body > .wp-site-blocks > footer * {
   text-align: left;
   background-color: white;
   border-radius: 10px;
-  max-width: 980px;
-  margin: auto;
 }
 .tix-js table td,
 .tix-js table th {
