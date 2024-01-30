@@ -50,7 +50,7 @@ body > .wp-site-blocks > footer * {
   min-width: 300px;
 }
 .tix-js {
-  --wp--style--global--content-size: 100%;
+  max-width: none !important;
 }
 body.page-template-wp-custom-template-full-wide-no-hero .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
 body.page-template-full-wide-page .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
