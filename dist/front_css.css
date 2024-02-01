@@ -67,6 +67,16 @@ body > .wp-site-blocks > footer * {
 .tix-js table th {
   padding: 5px;
 }
+.jetpack-subscribe-modal__modal-content {
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.jetpack-subscribe-modal__modal-content .wp-block-group {
+  border-style: none;
+}
+.jetpack-subscribe-modal__modal-content .wp-block-group input {
+  border-radius: 0px !important;
+}
 body.page-template-wp-custom-template-full-wide-no-hero .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
 body.page-template-full-wide-page .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   max-width: none;
