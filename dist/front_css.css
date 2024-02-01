@@ -7,6 +7,10 @@
 }
 .home .homepage_newsletter_signup {
   float: right;
+  width: 50%;
+  border: 1px solid black;
+  padding: 20px;
+  min-width: 311px;
 }
 .home .homepage_newsletter_signup p {
   font-size: 14px;
