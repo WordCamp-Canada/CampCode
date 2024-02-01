@@ -39,9 +39,11 @@ body > .wp-site-blocks > footer {
 body > .wp-site-blocks > footer * {
   color: inherit;
 }
+body > .wp-site-blocks > footer .signup_newsletter {
+  margin-bottom: 35px;
+}
 body > .wp-site-blocks > footer .signup_newsletter p {
   font-size: 14px;
-  font-weight: bold;
 }
 body > .wp-site-blocks > footer .signup_newsletter .wp-block-jetpack-subscriptions {
   margin-top: 0px;
