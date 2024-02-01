@@ -8,16 +8,19 @@
 body > .wp-site-blocks > header .wp-block-site-logo {
   position: absolute;
   z-index: 1000;
-  top: 33px;
+  top: 0px;
 }
 body > .wp-site-blocks > header .wp-block-site-title {
   margin-left: 70px;
 }
+body > .wp-site-blocks > header nav {
+  margin-left: 72px;
+}
 body.admin-bar > .wp-site-blocks > header {
   margin-top: 32px;
 }
-body.admin-bar > .wp-site-blocks > header nav {
-  margin-left: 72px;
+body.admin-bar > .wp-site-blocks > header .wp-block-site-logo {
+  top: 33px;
 }
 @media (max-width: 600px) {
   body.admin-bar > .wp-site-blocks > header nav {
