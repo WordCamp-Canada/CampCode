@@ -39,6 +39,17 @@ body > .wp-site-blocks > footer {
 body > .wp-site-blocks > footer * {
   color: inherit;
 }
+body > .wp-site-blocks > footer .signup_newsletter p {
+  font-size: 14px;
+  font-weight: bold;
+}
+body > .wp-site-blocks > footer .signup_newsletter .wp-block-jetpack-subscriptions {
+  margin-top: 0px;
+}
+body > .wp-site-blocks > footer .signup_newsletter .wp-block-jetpack-subscriptions input,
+body > .wp-site-blocks > footer .signup_newsletter .wp-block-jetpack-subscriptions button {
+  padding: 10px 15px !important;
+}
 .tix-js select,
 .contact-form select {
   font-size: 20px;
