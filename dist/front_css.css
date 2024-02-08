@@ -189,7 +189,7 @@ body.page-template-wp-custom-template-full-wide-no-hero .hero-image-main .main-p
 }
 .contact-form label span.grunion-label-required {
   color: black;
-  opacity: 0.9;
+  opacity: 0.9 !important;
 }
 
 
