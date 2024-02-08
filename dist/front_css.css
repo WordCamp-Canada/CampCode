@@ -114,7 +114,7 @@ body.page-template-wp-custom-template-full-wide-no-hero .hero-image-main,
 body.page-template-full-wide-page .hero-image-main {
   position: relative;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 body.page-template-wp-custom-template-full-wide-no-hero .hero-image-main .main-page-title,
 body.page-template-full-wide-page .hero-image-main .main-page-title {
@@ -183,6 +183,7 @@ body.page-template-wp-custom-template-full-wide-no-hero .hero-image-main .main-p
   position: static;
   transform: none;
   border-radius: 0px;
+  margin-bottom: 50px;
 }
 .contact-form label span.grunion-label-required {
   color: black;
